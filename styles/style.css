@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: sans-serif;
+}
+header{
+    background: #FFF8F3;
+}
+header section{
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    margin: 0 50px 0 20px;
+    background-size: 7%, 50%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px 0 100px;
+}
+nav h3{
+    font-size: 45px;
+    font-weight: 900;
+}
+nav h3 span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.btn-primary{
+    padding: 10px 16px;
+    color: white;
+    background: #FD6E0A;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-secondary{
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    margin-left: 20px;
+    background: white;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* display: none; */
+}
+.identity-content{
+    margin-left: 120px;
+    width: 35%;
+    align-content: center;
+}
+.greeting{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.heading{
+    font-size: 55px;
+    font-weight: 800;
+    color: #181818;
+    margin-bottom: 0px;
+}
+.description{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    line-height: 30px;
+    text-align: justify;
+}
+/* .identity-content{
+   width: 40%;
+   margin-left: 20px;
+} */
+.profile-pic{
+    width: 40%;
+}
+.about-section{
+    width: 50%;
+    padding: 80px;
+    margin: 100px auto;
+    background: #FFF8F3;
+    border-radius: 10px;
+
+}
+.about{
+    border: 1px solid black;
+    background: white;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.info > div{
+    text-align: center;
+}
+.about-heading{
+    text-align: center;
+}
+.about-description{
+    text-align: justify;
+    color: #757575;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.bottom-info{
+    font-weight: bold;
+    font-size: 16px;
+}
