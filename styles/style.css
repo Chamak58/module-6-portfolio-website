@@ -61,7 +61,6 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    /* display: none; */
 }
 .identity-content{
     margin-left: 120px;
@@ -86,10 +85,7 @@ nav ul li a{
     line-height: 30px;
     text-align: justify;
 }
-/* .identity-content{
-   width: 40%;
-   margin-left: 20px;
-} */
+
 .profile-pic{
     width: 40%;
 }
@@ -245,4 +241,121 @@ form textarea{
     padding-left: 10px;
     padding-top: 4px;
     margin-bottom: 20px;
+}
+.hide{
+    display: none;
+}
+
+/* media query for small device */
+@media screen and (max-width: 576px) {
+    body{
+        margin: 20px;
+
+    }
+    
+    .skills{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .skills-description{
+        width: 80%;
+        text-align: justify;
+        color: #757575;
+        line-height: 18px;
+    }
+    .skill-card{
+        column-gap: 30px;
+        padding: 5px;
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 20px;
+        box-shadow: 2px 2px 2px 2px darkorange;
+    }
+    .about-section{
+        width: 80%;
+        padding: 20px;
+        margin: 20px auto;    
+    }
+    .info{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        width: 90%;
+        margin: 20px auto; 
+        padding-top: 20px;
+        padding-bottom: 20px; 
+    }
+    .footer-left{
+        width: 80vw;
+    }
+    .footer-right{
+        width: 80vw;
+    }
+    .resume-content{
+        flex-direction: column;
+    }
+    .resume-summery{
+        width: 100%;
+        margin: 20px auto;
+        line-height: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .identity-content{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .greeting{
+        font-size: 22px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 14px;
+        line-height: 20px;
+        width: 90%;
+    }
+    header section{
+        background-image: url(/images/header_bg.png);
+        margin: 0px;
+        background-size: 0px;
+    }
+    nav{
+        margin: auto;
+        flex-direction: column;
+    }
+    nav h3{
+        font-size: 25px;
+    }
+    
+    nav ul{
+        flex-direction: column;
+        margin: auto;
+    }
+    nav ul li{
+        margin-bottom: 10px;
+
+    }
+    .profile-pic{
+        width: 80%;
+        margin: auto;
+    }
+    .btn-primary{
+        padding: 8px 12px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .btn-secondary{
+        padding: 8px 12px;
+        font-size: 14px;
+        border: 1px solid #FD6E0A;
+        border-radius: 5px;
+        color: #FD6E0A;
+        margin-left: 20px;
+    }
+    
 }
